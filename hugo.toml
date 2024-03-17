@@ -1,0 +1,28 @@
+baseURL = 'http://joshblades.co.uk/'
+languageCode = 'en-us'
+title = 'Josh Blades'
+theme = 'etch'
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "📝 posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "ℹ️ about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[params]
+  description = "Your site description"
+  copyright = "Copyright © 2024 Josh Blades"
+  dark = "auto"
+  highlight = true
+
+[permalinks]
+  posts = "/:title/"
